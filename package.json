@@ -2,7 +2,9 @@
   "name": "node",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Test OK\"",
-    "build": "echo \"Build OK\""
+    "test": "mocha test/*.test.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
   }
 }
